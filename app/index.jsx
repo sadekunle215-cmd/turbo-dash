@@ -10,8 +10,10 @@ import {
 
 const BANNER_ID = 'ca-app-pub-8207974891572934/8785795460';
 const INTER_ID  = 'ca-app-pub-8207974891572934/2823022347';
-
 const interstitial = InterstitialAd.createForAdRequest(INTER_ID);
+
+const HTML = `<!DOCTYPE html><html><body style="background:#0a0a0f;color:#00f5ff;font-family:monospace;text-align:center;padding-top:40vh">
+<h1>TURBO DASH</h1><p>Game loading...</p></body></html>`;
 
 export default function GameScreen() {
   const webRef = useRef(null);
@@ -31,7 +33,7 @@ export default function GameScreen() {
       <StatusBar hidden />
       <WebView
         ref={webRef}
-        source={require('../src/game.html')}
+        source={{ html: HTML }}
         style={styles.webview}
         javaScriptEnabled
         domStorageEnabled
