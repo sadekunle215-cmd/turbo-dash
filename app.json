@@ -6,32 +6,19 @@
     "scheme": "turbodash",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "backgroundColor": "#0a0a0f"
-    },
+    "splash": { "backgroundColor": "#0a0a0f" },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0a0a0f"
       },
       "package": "com.sadekunle215.turbodash",
-      "versionCode": 1,
-      "manifest": {
-        "application": {
-          "meta-data": [
-            {
-              "android:name": "com.google.android.gms.ads.APPLICATION_ID",
-              "android:value": "ca-app-pub-8207974891572934~6762267354"
-            }
-          ]
-        }
-      }
+      "versionCode": 1
     },
     "extra": {
       "eas": {
         "projectId": "d22af0bc-2353-4c6e-a76b-534f32981453"
       }
-    },
-    "owner": "chalingo"
+    }
   }
 }
