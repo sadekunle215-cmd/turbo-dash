@@ -13,15 +13,17 @@
         "backgroundColor": "#0a0a0f"
       },
       "package": "com.sadekunle215.turbodash",
-      "versionCode": 1
-    },
-    "plugins": [
-      [
-        "react-native-google-mobile-ads",
-        {
-          "androidAppId": "ca-app-pub-8207974891572934~6762267354"
+      "versionCode": 1,
+      "manifest": {
+        "application": {
+          "meta-data": [
+            {
+              "android:name": "com.google.android.gms.ads.APPLICATION_ID",
+              "android:value": "ca-app-pub-8207974891572934~6762267354"
+            }
+          ]
         }
-      ]
-    ]
+      }
+    }
   }
 }
