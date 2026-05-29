@@ -3,6 +3,7 @@
     "name": "Turbo Dash",
     "slug": "turbo-dash",
     "version": "1.0.0",
+    "scheme": "turbodash",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": { "backgroundColor": "#0a0a0f" },
@@ -11,7 +12,8 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0a0a0f"
       },
-      "package": "com.sadekunle215.turbodash"
+      "package": "com.sadekunle215.turbodash",
+      "versionCode": 1
     },
     "plugins": [
       [
