@@ -6,7 +6,9 @@
     "scheme": "turbodash",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": { "backgroundColor": "#0a0a0f" },
+    "splash": {
+      "backgroundColor": "#0a0a0f"
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
@@ -24,6 +26,12 @@
           ]
         }
       }
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d22af0bc-2353-4c6e-a76b-534f32981453"
+      }
+    },
+    "owner": "chalingo"
   }
 }
