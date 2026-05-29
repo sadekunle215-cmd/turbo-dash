@@ -12,6 +12,14 @@
         "backgroundColor": "#0a0a0f"
       },
       "package": "com.sadekunle215.turbodash"
-    }
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8207974891572934~6762267354"
+        }
+      ]
+    ]
   }
 }
